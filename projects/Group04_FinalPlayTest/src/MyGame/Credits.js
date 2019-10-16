@@ -17,9 +17,9 @@ function Credits() {
 gEngine.Core.inheritPrototype(Credits, MyGame);
 
 Credits.prototype.loadScene = function() {
-    this.k_Dzy = "assets/_Dzy.png";
-    this.k_Wyh = "assets/_Wyh.png";
-    this.k_Zyc = "assets/_Zyc.png";
+    this.k_Dzy = "assets/Developer_Dzy.png";
+    this.k_Wyh = "assets/Developer_Wyh.png";
+    this.k_Zyc = "assets/Developer_Zyc.png";
     this.mAllImages = new GameObjectSet();
     
     gEngine.Textures.loadTexture(this.k_Dzy);
